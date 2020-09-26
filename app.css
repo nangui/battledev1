@@ -1,0 +1,116 @@
+body {
+  font-family: "Advent Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #363232;
+}
+
+/* Heading part */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #489196;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 24px;
+  color: #fff;
+}
+
+ul {
+  display: inline;
+  list-style: none;
+  display: flex;
+}
+
+li {
+  padding: 10px 25px;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bolder;
+}
+
+/* Main part */
+main {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+}
+
+p {
+  text-align: center;
+  font-size: 24px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+button {
+  background: #489196;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px 25px;
+  font-size: 24px;
+  border-radius: 16px;
+  margin: auto auto;
+}
+
+.container {
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  width: 25%;
+}
+
+.card__content {
+  background-color: #489196;
+  position: relative;
+}
+
+.card__img {
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
+  border: 1px solid #000;
+  position: absolute;
+  top: -40px;
+  left: calc(50% - 40px);
+}
+
+.card__content h3 {
+  padding-top: 75px;
+  color: #fff;
+}
+
+.card__content span {
+  display: block;
+  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 30px;
+}
