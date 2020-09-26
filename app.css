@@ -69,6 +69,7 @@ button {
   font-size: 24px;
   border-radius: 16px;
   margin: auto auto;
+  cursor: pointer;
 }
 
 .container {
